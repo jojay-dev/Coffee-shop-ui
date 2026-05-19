@@ -1,0 +1,138 @@
+body {
+  background-color: rgb(73, 79, 109);
+}
+p {
+  margin: 0;
+  font-family: Montserrat;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+a {
+  font-family: Montserrat;
+  font-weight: bold;
+  text-decoration: none;
+  color: antiquewhite;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.nav-coffee-logo {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(228, 184, 40);
+  border-radius: 100%;
+  padding: 5px;
+}
+.logo-text {
+  font-size: 10px;
+  font-weight: bold;
+  color: antiquewhite;
+}
+.first-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  max-width: 200px;
+  margin-left: 75px;
+}
+.second-column {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 2;
+  margin-right: 75px;
+}
+.body-content-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.design-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+}
+.content-text {
+  color: antiquewhite;
+  margin-top: 15px;
+  flex: 1;
+}
+.first-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+}
+.product {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: antiquewhite;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.categories {
+  margin: 0;
+  color: rgb(70, 73, 88);
+  background-color: rgb(243, 202, 66);
+  border-radius: 25px;
+  padding: 15px 50px;
+}
+.second-container {
+  margin-top: 25px;
+}
+.design-image {
+  border-style: solid;
+  border-color: antiquewhite;
+  padding: 7px;
+}
+button {
+  color: antiquewhite;
+  font-weight: bold;
+  background-color: rgb(70, 73, 88);
+  border-style: solid;
+  border-color: antiquewhite;
+  padding: 10px 45px;
+  border-radius: 25px;
+  border-width: 1px;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+.dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide {
+  margin: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 100%;
+}
+.social-link {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 250px;
+  flex: 1;
+}
+.social-link-icon {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(243, 202, 66);
+  margin: 5px;
+  padding: 5px;
+}

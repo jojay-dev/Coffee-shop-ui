@@ -3,62 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/Coffee-shop-ui/index.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Finlandica+Headline:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Finlandica+Headline:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <style>
-      body {
-        background-color: rgb(255, 253, 249);
-      }
-      p {
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-      nav {
-        display: flex;
-        justify-content: center;
-        flex: 1;
-      }
-      .container {
-        width: 600px;
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 50px;
-        font-family: Finlandica;
-        font-size: 25px;
-        margin-top: 20px;
-      }
-      .title {
-        display: flex;
-        justify-content: center;
-      }
-      .main-content {
-        width: 450px;
-        text-align: center;
-        font-size: 50px;
-        font-weight: 500;
-        font-family: Finlandica;
-      }
-    </style>
+    <title>Coffee Shop UI</title>
   </head>
   <body>
-    <nav>
-      <div class="container">
-        <p>Product</p>
-        <p>About us</p>
-        <p>Testimonial</p>
-        <p>Contact</p>
+    <div class="nav-container">
+      <div class="first-column">
+        <a href="#">
+          <img
+            class="nav-coffee-logo"
+            src="/Coffee-shop-ui//iconlogo/coffee-logo.png"
+            alt=""
+        /></a>
+        <p class="logo-text">COFFEE</p>
+        <p class="logo-text">PLANTATION</p>
       </div>
-    </nav>
-    <div class="title">
-      <p class="main-content">Enjoy Your Coffee with ZARA</p>
+      <div class="second-column">
+        <a href="#">COFFEE</a>
+        <a href="#">APP</a>
+        <a href="#">PLANTATION</a>
+        <a href="#">NEW</a>
+        <a href="#">CONTACT</a>
+      </div>
+    </div>
+    <div class="body-content-container">
+      <div class="first-container">
+        <div class="first-div">
+          <h1 class="product">NEW PRODUCT</h1>
+          <h2 class="categories">THE BEST COFFEE</h2>
+          <p class="content-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ut
+            minima sapiente deleniti rerum explicabo odit modi distinctio
+            quaerat magni ullam perferendis tenetur,
+          </p>
+        </div>
+        <div class="buttons">
+          <button>BUY</button>
+          <button>SIGN UP</button>
+        </div>
+      </div>
+      <div class="second-container">
+        <img
+          class="design-image"
+          src="/content-img/bodyimage.jpg"
+          alt="coffee-image"
+        />
+      </div>
+    </div>
+    <div class="dot">
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+    </div>
+    <div class="social-link">
+      <img
+        class="social-link-icon"
+        src="/Coffee-shop-ui/iconlogo/twitter.png"
+        alt=""
+      />
+      <img
+        class="social-link-icon"
+        src="/Coffee-shop-ui/iconlogo/instagram.png"
+        alt=""
+      />
+      <img
+        class="social-link-icon"
+        src="/Coffee-shop-ui/iconlogo/facebook-app-symbol.png"
+        alt=""
+      />
+      <img
+        class="social-link-icon"
+        src="/Coffee-shop-ui/iconlogo/youtube.png"
+        alt=""
+      />
     </div>
   </body>
 </html>
